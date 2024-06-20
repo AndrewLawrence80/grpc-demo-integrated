@@ -4,10 +4,10 @@ import (
 	"log"
 	"net"
 
-	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/proto/calculator"
-	pbGreeter "github.com/andrewlawrence80/grpc-demo-integrated/proto/greeter"
-	calculator "github.com/andrewlawrence80/grpc-demo-integrated/server/calculator"
-	greeter "github.com/andrewlawrence80/grpc-demo-integrated/server/greeter"
+	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/api/calculator"
+	pbGreeter "github.com/andrewlawrence80/grpc-demo-integrated/api/greeter"
+	calculator "github.com/andrewlawrence80/grpc-demo-integrated/internal/calculator"
+	greeter "github.com/andrewlawrence80/grpc-demo-integrated/internal/greeter"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

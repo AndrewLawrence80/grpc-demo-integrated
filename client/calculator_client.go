@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/proto/calculator"
+	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/api/calculator"
 	"google.golang.org/grpc"
 )
 

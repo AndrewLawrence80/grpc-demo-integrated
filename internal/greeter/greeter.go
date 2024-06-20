@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/andrewlawrence80/grpc-demo-integrated/proto/greeter"
+	pb "github.com/andrewlawrence80/grpc-demo-integrated/api/greeter"
 )
 
 type GreeterServer struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/andrewlawrence80/grpc-demo-integrated/proto/calculator"
+	pb "github.com/andrewlawrence80/grpc-demo-integrated/api/calculator"
 )
 
 type CalculatorServer struct {

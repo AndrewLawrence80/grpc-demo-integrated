@@ -1,11 +1,11 @@
-package test
+package calculator
 
 import (
 	"context"
 	"testing"
 
-	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/proto/calculator"
-	calculator "github.com/andrewlawrence80/grpc-demo-integrated/server/calculator"
+	pbCalculator "github.com/andrewlawrence80/grpc-demo-integrated/api/calculator"
+	calculator "github.com/andrewlawrence80/grpc-demo-integrated/internal/calculator"
 )
 
 func TestAdd(t *testing.T) {

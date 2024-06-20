@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	pbGreeter "github.com/andrewlawrence80/grpc-demo-integrated/proto/greeter"
+	pbGreeter "github.com/andrewlawrence80/grpc-demo-integrated/api/greeter"
 	"google.golang.org/grpc"
 )
 
