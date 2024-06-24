@@ -69,5 +69,3 @@ func TestGreeterServer_SayHello(t *testing.T) {
 		})
 	}
 }
-
-func TestGreeterClient
